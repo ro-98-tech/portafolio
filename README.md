@@ -6,18 +6,17 @@ Desarrollador **Java Full Stack Jr**. Construyo aplicaciones web funcionales, cl
 - 🌐 **Demo**: https://ro-98-tech.github.io/portafolio/
 - 📄 **Descargar CV (PDF)**: https://ro-98-tech.github.io/portafolio/CV_Roberto_Melendez.pdf
 - 🔗 **LinkedIn**: https://www.linkedin.com/in/roberto-carlos-melendez
-- 🐙 **GitHub**: https://github.com/ro-98-tech
 
 ---
 
 ## ✨ Características
 
 - **UI moderna** con paleta cian–violeta, efecto *glass* y micro-animaciones.
-- **Responsive** con Bootstrap 5 (navbar con hamburguesa).
+- **Responsive** con Bootstrap 5.
 - **Secciones**: Hero, Habilidades (técnicas + blandas), Proyectos (tarjetas con imagen/stack/links), Contacto.
 - **Íconos** de *Devicon* (skills) y *Bootstrap Icons* (contacto/redes).
 - **Descarga de CV** desde el hero y/o footer.
-- Buenas prácticas de **accesibilidad**, **SEO básico** y **performance** (lazy loading de imágenes, CDN).
+- Buenas prácticas de **accesibilidad**, **SEO básico** y **performance**.
 
 ---
 
@@ -29,7 +28,3 @@ Desarrollador **Java Full Stack Jr**. Construyo aplicaciones web funcionales, cl
 - **Hosting**: GitHub Pages
 
 > Sitio estático — no requiere Node ni build steps.
-
----
-
-## 🗂️ Estructura de carpetas
