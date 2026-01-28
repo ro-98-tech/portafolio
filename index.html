@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Desarrollador — Roberto Meléndez</title>
+    <meta name="description"
+        content="Portafolio de Meléndez Mayén Roberto Carlos: Desarrollador Java Full Stack Jr, con experiencia en mantenimiento, corte láser y proyectos web." />
+    <meta name="theme-color" content="#06b6d4" />
+    <!-- Favicon -->
+    <link rel="icon" href="img/LogoRo.png?v=1" type="image/png" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Bootstrap Icons (para contacto/redes) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Tu CSS -->
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <!-- ===== Header / Navbar sticky ===== -->
+    <header class="sticky-top border-bottom nav-glass mb-4">
+        <nav class="navbar navbar-expand-xl navbar-dark bg-dark" style="--bs-bg-opacity:.6;">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center gap-2" href="#inicio" aria-label="Inicio">
+                    <span class="avatar shadow-sm">
+                        <img src="img/LogoRo.png" alt="Logo de Roberto" class="img-fluid rounded-circle" />
+                    </span>
+                    <span class="d-flex flex-column">
+                        <span class="fw-bold ms-1">Roberto Meléndez</span>
+                        <small class="brand-subtitle ms-1">Desarrollador Java Full Stack Jr.</small>
+                    </span>
+                </a>
+                <!-- Menu -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+                    aria-controls="mainNav" aria-expanded="false" aria-label="Abrir menú">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Links -->
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link link-underline link-neon" href="#inicio"
+                                aria-current="page">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link link-underline link-neon"
+                                href="#habilidades">Habilidades</a></li>
+                        <li class="nav-item"><a class="nav-link link-underline link-neon"
+                                href="#proyectos">Proyectos</a></li>
+                        <li class="nav-item"><a class="nav-link link-underline link-neon" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- ===== Main ===== -->
+    <main id="inicio" class="container py-4">
+        <!-- Hero -->
+        <section class="hero border rounded-4 p-4 p-lg-5 shadow project-card">
+            <div class="row g-4 align-items-center ">
+                <!-- Texto -->
+                <div class="col-lg-7">
+                    <h1 class="display-6 fw-bold mb-4">Desarrollador Java Full Stack Jr.</h1>
+                    <p class="mt-3 mb-4 text-justify">
+                        Soy un desarrollador <strong>Java Full Stack Jr.</strong> enfocado en construir aplicaciones web funcionales y bien diseñadas. Me gusta aprender tecnologías nuevas, resolver problemas y trabajar en proyectos que se convierten en experiencias reales para los usuarios.
+                    </p>
+                    <div class="d-flex flex-wrap gap-2 mt-5">
+                        <a class="btn btn-outline-light" href="#proyectos">Ver proyectos</a>
+                        <a class="btn btn-outline-light" href="#contacto">Contáctame</a>
+                        <a class="btn btn-outline-light" href="CV-Roberto.pdf" target="_blank" rel="noopener" download><i class="bi bi-file-earmark-arrow-down me-1"></i> Descargar CV (PDF)</a>
+                    </div>
+                </div>
+                <!-- Foto / visual -->
+                <div class="col-lg-5">
+                    <div class="card kpi-card text-center p-4">
+                        <div class="profile-visual mx-auto">
+                            <div class="glow" aria-hidden="true"></div>
+                            <div class="ring" aria-hidden="true"></div>
+                            <img class="photo" src="img/Ro.jpg" alt="Retrato de Roberto" loading="lazy" />
+                        </div>
+                        <h2 class="h4 fw-bold m-4">Roberto Carlos Meléndez Mayén</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Habilidades -->
+        <section id="habilidades" class="mt-5">
+            <h2 class="h3 mb-4 fw-bold">Habilidades</h2>
+            <div class="row g-4">
+                <!-- Técnicas -->
+                <div class="col-lg-6">
+                    <div class="card p-4 shadow project-card">
+                        <div class="mb-3">
+                            <span class="badge skill-section-title">Técnicas</span>
+                        </div>
+                        <div class="row row-cols-3 g-4 text-center">
+                            <!-- HTML -->
+                            <div class="col skill-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+                                    class="skill-icon" alt="HTML" loading="lazy">
+                                <div class="small mt-2">HTML</div>
+                            </div>
+                            <!-- CSS -->
+                            <div class="col skill-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+                                    class="skill-icon" alt="CSS" loading="lazy">
+                                <div class="small mt-2">CSS</div>
+                            </div>
+                            <!-- JavaScript -->
+                            <div class="col skill-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                                    class="skill-icon" alt="JavaScript" loading="lazy">
+                                <div class="small mt-2">JavaScript</div>
+                            </div>
+                            <!-- Java -->
+                            <div class="col skill-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
+                                    class="skill-icon" alt="Java" loading="lazy">
+                                <div class="small mt-2">Java</div>
+                            </div>
+                            <!-- MySQL -->
+                            <div class="col skill-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
+                                    class="skill-icon" alt="MySQL" loading="lazy">
+                                <div class="small mt-2">MySQL</div>
+                            </div>
+                            <!-- Git -->
+                            <div class="col skill-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+                                    class="skill-icon" alt="Git" loading="lazy">
+                                <div class="small mt-2">Git</div>
+                            </div>
+                            <!-- GitHub (forzado a blanco) -->
+                            <div class="col skill-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+                                    class="skill-icon skill-icon-white" alt="GitHub" loading="lazy">
+                                <div class="small mt-2">GitHub</div>
+                            </div>
+                            <!-- Python -->
+                            <div class="col skill-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+                                    class="skill-icon" alt="Python" loading="lazy">
+                                <div class="small mt-2">Python</div>
+                            </div>
+                            <!-- C++ -->
+                            <div class="col skill-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"
+                                    class="skill-icon" alt="C++" loading="lazy">
+                                <div class="small mt-2">C++</div>
+                            </div>
+                            <!-- Jupyter -->
+                            <div class="col-12 skill-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original.svg"
+                                    class="skill-icon" alt="Jupyter" loading="lazy">
+                                <div class="small mt-2">Jupyter</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blandas -->
+                <div class="col-lg-6 ">
+                    <div class="card p-4 shadow project-card">
+                        <div class="mb-3">
+                            <span class="badge skill-section-title">Blandas</span>
+                        </div>
+                        <div class="d-flex flex-wrap gap-3">
+                            <span class="badge skill-soft">Trabajo en equipo</span>
+                            <span class="badge skill-soft">Resolución de problemas</span>
+                            <span class="badge skill-soft">Adaptabilidad</span>
+                            <span class="badge skill-soft">Gestión del tiempo</span>
+                            <span class="badge skill-soft">Proactividad</span>
+                            <span class="badge skill-soft">Pensamiento crítico</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Proyectos -->
+        <section id="proyectos" class="mt-5">
+            <h2 class="h3 mb-4 fw-bold">Proyectos</h2>
+            <div class="row g-4">
+                <!-- Proyecto 1 -->
+                <div class="col-12">
+                    <article class="card p-3 shadow project-card">
+                        <div class="row g-3">
+                            <!-- Imagen -->
+                            <div class="col-md-4">
+                                <img src="img/p1.png" class="img-fluid rounded-3 project-img"
+                                    alt="Lolo’s Café - E-commerce" loading="lazy">
+                            </div>
+                            <!-- Info -->
+                            <div class="col-md-8 d-flex flex-column justify-content-between">
+                                <div>
+                                    <span class="badge text-bg-dark border border-primary-subtle">
+                                        <strong>E-commerce • Lolo’s Café</strong>
+                                    </span>
+                                    <div class="d-flex flex-wrap gap-2 my-3">
+                                        <span class="badge tech-badge">Java</span>
+                                        <span class="badge tech-badge">Spring Boot</span>
+                                        <span class="badge tech-badge">MySQL</span>
+                                        <span class="badge tech-badge">Bootstrap 5</span>
+                                    </div>
+                                    <p class="text-light mb-2">
+                                        Desarrollo Full Stack (Dic 2025 – Feb 2026). Catálogo, carrito, checkout,
+                                        autenticación y panel admin.
+                                    </p>
+                                    <ul class="list-unstyled small text-light mt-2 mb-0">
+                                        <li>• Autenticación JWT + roles (admin/cliente).</li>
+                                        <li>• Índices MySQL: consultas &lt; 50 ms en productos.</li>
+                                        <li>• Checkout en 3 pasos (reduce fricción).</li>
+                                    </ul>
+                                </div>
+                                <div class="d-flex flex-wrap gap-2 mt-3">
+                                    <a class="btn btn-outline-info btn-sm" href="https://lolos-cafe-dev.netlify.app/"
+                                        target="_blank" rel="noopener">
+                                        Ver despliegue
+                                    </a>
+                                    <a class="btn btn-outline-light btn-sm"
+                                        href="https://github.com/teamdevsvelados/proyecto-lolos-cafe" target="_blank"
+                                        rel="noopener">
+                                        Repositorio
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section id="contacto" class="mt-5 ">
+            <h2 class="h3 mb-4 fw-bold">Contacto</h2>
+            <div class="card p-4 contact-card shadow project-card">
+                <div class="row g-4 align-items-center">
+                    <!-- Datos -->
+                    <div class="col-lg-7">
+                        <div class="mb-2"><i class="bi bi-geo-alt-fill me-2"></i> Lerma, Edo. Méx.</div>
+                        <div class="contact-line">
+                            <i class="bi bi-telephone-fill contact-icon"></i>
+                            <a href="tel:+525545287126">+52 55 4528 7126</a>
+                        </div>
+                        <div class="contact-line">
+                            <i class="bi bi-envelope-fill contact-icon"></i>
+                            <a href="mailto:rmelendezm98@gmail.com">rmelendezm98@gmail.com</a>
+                        </div>
+                    </div>
+                    <!-- Redes -->
+                    <div class="col-lg-5">
+                        <div class="fw-bold mb-2">Redes</div>
+                        <div class="d-flex flex-column gap-2">
+                            <a class="contact-social" href="https://www.linkedin.com/in/roberto-carlos-melendez"
+                                target="_blank" rel="noopener">
+                                <i class="bi bi-linkedin contact-icon"></i> LinkedIn
+                            </a>
+                            <a class="contact-social" href="https://github.com/ro-98-tech" target="_blank"
+                                rel="noopener">
+                                <i class="bi bi-github contact-icon"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="mt-5">
+        <div class="container d-flex justify-content-between align-items-center gap-2 py-3 text-secondary">
+            <div>© <span id="year"></span> Roberto Carlos Meléndez Mayén</div>
+            <div class="small">Hecho con Bootstrap 5</div>
+        </div>
+    </footer>
+    <!-- Bootstrap JS (incluye Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
